@@ -1,15 +1,22 @@
 @font-face {
   font-family: "Open Sans";
-  src: url("../../assets/fonts/OpenSans-Regular.woff2") format("woff2");
-  font-weight: normal;
+  src:
+    url("../../assets/fonts/OpenSans-VariableFont_wdth\,wght.woff2")
+      format("woff2-variations"),
+    url("../../assets/fonts/OpenSans-VariableFont_wdth\,wght.woff2")
+      format("woff2");
+  font-weight: 300 800;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("../../assets/fonts/Montserrat-Thin.woff2") format("woff2");
-  font-weight: 100;
+  src:
+    url("../../assets/fonts/Montserrat-VariableFont_wght.woff2")
+      format("woff2-variations"),
+    url("../../assets/fonts/Montserrat-VariableFont_wght.woff2") format("woff2");
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }

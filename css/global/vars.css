@@ -1,0 +1,11 @@
+:root {
+  /* Цвета */
+  --color-gray: #676f7e;
+  --color-white: #ffffff;
+  --color-blue: #0d59a5;
+  --color-orange: #ee5b2b;
+  --color-black: #1d2330;
+
+  /* Плавность */
+  --transition: all 0.4s;
+}
