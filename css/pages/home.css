@@ -1,0 +1,69 @@
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../../assets/img/bg/hero-bg.jpg") center center / cover
+    no-repeat;
+}
+
+.hero__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  color: var(--color-white);
+}
+
+.hero__badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  max-width: 310px;
+  padding: 8px 16px;
+  background-color: var(--color-orange);
+  opacity: 0.9;
+  border-radius: 9999px;
+  font-weight: 700;
+}
+
+.hero__badge img {
+  width: 14px;
+  aspect-ratio: 1;
+}
+
+.hero__title {
+  max-width: 800px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.hero__title span {
+  color: #f67e55;
+}
+
+.hero__subtitle {
+  max-width: 576px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.hero__stats {
+  display: flex;
+  gap: 32px;
+}
+
+.hero__stat p {
+  margin-bottom: 5px;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.hero__stat span {
+  opacity: 0.7;
+}
