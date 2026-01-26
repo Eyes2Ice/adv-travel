@@ -45,6 +45,7 @@ header {
   position: fixed;
   width: 100%;
   background-color: #f9fafb;
+  z-index: 2;
 }
 
 .header-top {
