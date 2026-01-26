@@ -24,7 +24,7 @@
 
   .nav-wrapper {
     position: fixed;
-    top: 20%;
+    top: 15%;
     left: 0;
     display: flex;
     justify-content: center;
@@ -59,6 +59,10 @@
   .header-top__inner {
     flex-direction: column;
     row-gap: 20px;
+  }
+
+  .nav-wrapper {
+    top: 19%;
   }
 }
 
