@@ -8,4 +8,7 @@
 
   /* Плавность */
   --transition: all 0.4s;
+
+  /* Скругление углов */
+  --border-radius: 9999px;
 }

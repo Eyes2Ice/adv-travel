@@ -67,6 +67,11 @@
 }
 
 @media (max-width: 499px) {
+  /* Global */
+  .title {
+    font-size: 32px ;
+  }
+
   /* Header */
   .header__btn {
     display: none;

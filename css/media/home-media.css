@@ -1,5 +1,16 @@
 @import url("./global-media.css");
 
+@media (max-width: 899px) {
+  /* Hero */
+  .directions__item {
+    flex-grow: 1;
+  }
+
+  .directions__link {
+    max-width: none;
+  }
+}
+
 @media (max-width: 599px) {
   /* Hero */
   .hero__title {
