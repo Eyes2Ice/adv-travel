@@ -318,19 +318,8 @@
   padding: 20px;
 }
 
-.rating {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
 .hot-offer__rating {
   margin-bottom: 12px;
-}
-
-.rating p {
-  font-weight: 700;
-  color: var(--color-black);
 }
 
 .hot-offer__title {
@@ -393,4 +382,110 @@
 
 .hot-offer__partner {
   font-size: 12px;
+}
+
+/* Partners */
+.partners__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 96px;
+}
+
+.partners__title {
+  margin-bottom: 16px;
+}
+
+.partners__subtitle {
+  margin-bottom: 48px;
+}
+
+.partners__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 24px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.partner {
+  padding: 24px;
+  background-color: var(--color-white);
+  border-radius: 16px;
+  border: 1px solid #dae0e7;
+  transition: var(--transition);
+}
+
+.partner:hover {
+  transform: translateY(-10px);
+  box-shadow:
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 20px 50px -15px #1d233026;
+}
+
+.partner__heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.partner__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  aspect-ratio: 1;
+  background-color: #f7f3ed;
+  border-radius: 12px;
+}
+
+.partner__img img {
+  width: 24px;
+  aspect-ratio: 1;
+}
+
+.partner__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.partner__body {
+  margin-bottom: 16px;
+}
+
+.partner__body p:first-child {
+  margin-bottom: 8px;
+}
+
+.partner__link {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: var(--color-blue);
+  transition: var(--transition);
+}
+
+.partner__link:hover,
+.partner__link:focus,
+.partner__link:active {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.partners__btn {
+  background-color: var(--color-blue);
 }

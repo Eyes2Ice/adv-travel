@@ -49,6 +49,36 @@
   line-height: 1.5;
 }
 
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rating p {
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-white);
+  transition: var(--transition);
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  opacity: 0.9;
+}
+
 /* Header */
 header {
   position: fixed;
