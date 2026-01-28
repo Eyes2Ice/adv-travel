@@ -246,3 +246,141 @@ header {
   width: 14px;
   aspect-ratio: 1;
 }
+
+/* Blog */
+.blog {
+  background-color: #f8f8f6;
+}
+
+.blog__inner {
+  padding-block: 96px;
+}
+
+.blog__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 48px;
+}
+
+.blog__badge {
+  max-width: 180px;
+}
+
+.blog__title {
+  margin-bottom: 8px;
+}
+
+.blog__link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: var(--border-radius);
+  font-weight: 700;
+  color: var(--color-blue);
+  transition: var(--transition);
+}
+
+.blog__link:hover,
+.blog__link:focus,
+.blog__link:active {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.blog__list {
+  display: flex;
+  gap: 32px;
+}
+
+.post {
+  position: relative;
+  background-color: var(--color-white);
+  border-radius: 16px;
+  border: 1px solid #dae0e7;
+  box-shadow:
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 8px 30px -8px #1d23301f;
+  transition: var(--transition);
+}
+
+.post:hover {
+  transform: translateY(-10px);
+  box-shadow:
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 20px 50px -15px #1d233026;
+}
+
+.post__img {
+  width: 100%;
+  height: 208px;
+}
+
+.post__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.post__badge {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  padding: 4px 10px;
+  border-radius: var(--border-radius);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.post__badge--orange {
+  background-color: var(--color-orange);
+}
+
+.post__badge--blue {
+  background-color: var(--color-blue);
+}
+
+.post__badge--green {
+  background-color: var(--color-green);
+}
+
+.post__body {
+  padding: 24px;
+}
+
+.post__title {
+  margin-bottom: 12px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--color-black);
+}
+
+.post__description {
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post__author,
+.post__time {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
