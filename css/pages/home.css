@@ -394,10 +394,12 @@
 
 .partners__title {
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .partners__subtitle {
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .partners__list {
