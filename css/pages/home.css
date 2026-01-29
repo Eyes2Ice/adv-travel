@@ -203,7 +203,7 @@
 
 .hot__badge {
   display: flex;
-  gap: 8px;
+  gap: var(--gap);
   max-width: 230px;
   align-items: center;
   margin-bottom: 16px;
@@ -221,7 +221,7 @@
 .hot__link {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: var(--gap);
   padding: 12px 24px;
   border-radius: var(--border-radius);
   font-weight: 700;
@@ -453,7 +453,7 @@
 .partner__title {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: var(--gap);
   margin-bottom: 5px;
   font-family: "Montserrat";
   font-size: 16px;
