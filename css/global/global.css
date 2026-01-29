@@ -472,8 +472,9 @@ header {
 }
 
 .footer-body__inner {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0px, 1fr));
+  justify-items: center;
 }
 
 .footer-body h6 {
@@ -505,11 +506,15 @@ header {
   transition: var(--transition);
 }
 
-.footer__nav ul li a:hover {
+.footer__nav ul li a:hover,
+.footer__nav ul li a:focus,
+.footer__nav ul li a:active {
   color: var(--color-white);
 }
 
-.footer__nav ul li a:hover::after {
+.footer__nav ul li a:hover::after,
+.footer__nav ul li a:focus::after,
+.footer__nav ul li a:active::after {
   width: 100%;
 }
 
@@ -552,7 +557,11 @@ header {
 }
 
 .footer__number a:hover,
-.footer__email a:hover {
+.footer__number a:focus,
+.footer__number a:active,
+.footer__email a:hover,
+.footer__email a:focus,
+.footer__email a:active {
   color: var(--color-white);
 }
 
@@ -567,7 +576,11 @@ header {
 }
 
 .footer__number a:hover::after,
-.footer__email a:hover::after {
+.footer__number a:focus::after,
+.footer__number a:active::after,
+.footer__email a:hover::after,
+.footer__email a:focus::after,
+.footer__email a:active::after {
   width: 100%;
 }
 
