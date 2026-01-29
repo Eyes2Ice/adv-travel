@@ -14,6 +14,15 @@
   .header__nav {
     max-width: 400px;
   }
+
+  /* Blog */
+  .blog__list {
+    flex-wrap: wrap;
+  }
+
+  .blog__item {
+    max-width: 350px;
+  }
 }
 
 @media (max-width: 799px) {
@@ -51,6 +60,24 @@
     font-size: 24px;
     row-gap: 30px;
     text-align: center;
+  }
+
+  /* Blog */
+  .blog__inner {
+    padding-block: 64px;
+  }
+
+  .blog__heading {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .blog__list {
+    justify-content: center;
+  }
+
+  .blog__item {
+    max-width: 550px;
   }
 }
 

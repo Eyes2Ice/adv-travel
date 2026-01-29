@@ -308,7 +308,9 @@ header {
   transition: var(--transition);
 }
 
-.post:hover {
+.blog__item a:hover .post,
+.blog__item a:focus .post,
+.blog__item a:active .post {
   transform: translateY(-10px);
   box-shadow:
     0 0 #0000,
@@ -360,17 +362,27 @@ header {
 }
 
 .post__title {
+  display: -webkit-box;
   margin-bottom: 12px;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: 700;
   line-height: 1.5;
   color: var(--color-black);
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .post__description {
+  display: -webkit-box;
   margin-bottom: 16px;
   line-height: 1.5;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .post__footer {
