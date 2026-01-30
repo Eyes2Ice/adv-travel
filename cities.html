@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Туры России</title>
+
+    <link rel="stylesheet" href="./css/global/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/pages/cities.css" />
+    <link rel="stylesheet" href="./css/media/cities-media.css" />
+  </head>
+  <body class="body">
+    <div class="wrapper">
+      <header>
+        <div class="header-top">
+          <div class="container">
+            <div class="header-top__inner">
+              <a href="tel:+78009999999" class="header__number"
+                >Бесплатная консультация: 8-800-999-99-99
+              </a>
+              <ul class="header-top__links">
+                <li>
+                  <a href="#" class="header-top__link">Партнёрам</a>
+                </li>
+                <li>
+                  <a href="#" class="header-top__link">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="container">
+            <div class="header-bottom__inner">
+              <div class="header__logo logo">
+                <div class="logo__img">
+                  <a href="/">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-map-pin w-6 h-6 text-white"
+                    >
+                      <path
+                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                      ></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </a>
+                </div>
+                <div class="logo__title">
+                  <p>ТурыРоссии</p>
+                  <span>Сравнение туров и цен</span>
+                </div>
+              </div>
+              <div class="nav-wrapper">
+                <nav class="header__nav nav" aria-label="Главная навигация">
+                  <ul class="nav__list">
+                    <li class="nav__item">
+                      <a href="/" class="nav__link">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                      <a
+                        href="./cities.html"
+                        class="nav__link nav__link--active"
+                        >Города России</a
+                      >
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Пляжный отдых</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Горнолыжные курорты</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Экскурсиии </a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Акции</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">О сайте</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <button class="burger-icon" aria-label="Открыть мобильное меню">
+                <svg
+                  width="60px"
+                  height="60px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 8H13.75M5 12H19M10.25 16L19 16"
+                    stroke="#464455"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <a
+                href="#"
+                class="header__btn"
+                aria-label="Ссылка на страницу с горящими турами и акциями"
+              >
+                <img
+                  src="./assets/img/icons/fire.svg"
+                  alt="Декоративная иконка - горящий огонь"
+                />
+                Горящие туры
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="main__hero hero">
+          <div class="hero__wrapper"></div>
+          <div class="hero__inner">
+            <h1 class="hero__title">Города России</h1>
+            <p class="hero__subtitle">
+              Откройте для себя историю и культуру величайших городов нашей
+              страны — от Москвы до Владивостока
+            </p>
+          </div>
+        </section>
+        <section class="main__blog blog">
+          <div class="container">
+            <div class="blog__inner">
+              <div class="blog__heading blog-heading">
+                <div class="blog-heading__left">
+                  <h2 class="blog__title title">Популярные статьи</h2>
+                  <p class="blog__subtitle subtitle">
+                    Путеводители, маршруты и советы от наших экспертов
+                  </p>
+                </div>
+              </div>
+              <ul class="blog__list">
+                <li class="blog__item">
+                  <a href="#" aria-label="Перейти на страницу статьи">
+                    <article class="post">
+                      <div class="post__img">
+                        <img
+                          src="./assets/img/blog/beach/cities.jfif"
+                          alt="Храм Василия Блаженного"
+                        />
+                      </div>
+                      <div class="post__body">
+                        <h4 class="post__title">
+                          Москва за 3 дня: что посмотреть и где остановиться
+                        </h4>
+                        <p class="post__description">
+                          Подробный маршрут по главным достопримечательностям
+                          столицы с бюджетом и советами от местных жителей.
+                        </p>
+                        <footer class="post__footer">
+                          <cite class="post__author">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-user w-4 h-4"
+                            >
+                              <path
+                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                              ></path>
+                              <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            Алексей Козлов
+                          </cite>
+                          <div class="post__time">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-clock w-4 h-4"
+                            >
+                              <circle cx="12" cy="12" r="10"></circle>
+                              <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <time datetime="PT12M">12 мин </time>
+                          </div>
+                        </footer>
+                      </div>
+                    </article>
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a href="#" aria-label="Перейти на страницу статьи">
+                    <article class="post">
+                      <div class="post__img">
+                        <img
+                          src="./assets/img/blog/cities/spb.jfif"
+                          alt="Разводные моосты в Санкт-Петербурге"
+                        />
+                      </div>
+                      <div class="post__body">
+                        <h4 class="post__title">
+                          Санкт-Петербург: белые ночи и разводные мосты
+                        </h4>
+                        <p class="post__description">
+                          Лучшее время для посещения Северной столицы,
+                          романтические места и гастрономические открытия.
+                        </p>
+                        <footer class="post__footer">
+                          <cite class="post__author">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-user w-4 h-4"
+                            >
+                              <path
+                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                              ></path>
+                              <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            Мария Петрова
+                          </cite>
+                          <div class="post__time">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-clock w-4 h-4"
+                            >
+                              <circle cx="12" cy="12" r="10"></circle>
+                              <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <time datetime="PT10M">10 мин </time>
+                          </div>
+                        </footer>
+                      </div>
+                    </article>
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a href="#" aria-label="Перейти на страницу статьи">
+                    <article class="post">
+                      <div class="post__img">
+                        <img
+                          src="./assets/img/blog/cities/kazan.jpg"
+                          alt="Мечеть Кул Шариф в Казани"
+                        />
+                      </div>
+                      <div class="post__body">
+                        <h4 class="post__title">
+                          Казань — где Восток встречает Запад
+                        </h4>
+                        <p class="post__description">
+                          Уникальный колорит третьей столицы России: мечети и
+                          храмы, чак-чак и эчпочмак.
+                        </p>
+                        <footer class="post__footer">
+                          <cite class="post__author">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-user w-4 h-4"
+                            >
+                              <path
+                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                              ></path>
+                              <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            Елена Сафина
+                          </cite>
+                          <div class="post__time">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-clock w-4 h-4"
+                            >
+                              <circle cx="12" cy="12" r="10"></circle>
+                              <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <time datetime="PT8M">8 мин </time>
+                          </div>
+                        </footer>
+                      </div>
+                    </article>
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a href="#" aria-label="Перейти на страницу статьи">
+                    <article class="post">
+                      <div class="post__img">
+                        <img
+                          src="./assets/img/blog/cities/golden-ring.avif"
+                          alt="Золотое кольцо России"
+                        />
+                      </div>
+                      <div class="post__body">
+                        <h4 class="post__title">
+                          Золотое кольцо: полный путеводитель
+                        </h4>
+                        <p class="post__description">
+                          Маршрут по древним городам России: Суздаль, Владимир,
+                          Ярославль, Кострома и другие.
+                        </p>
+                        <footer class="post__footer">
+                          <cite class="post__author">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-user w-4 h-4"
+                            >
+                              <path
+                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                              ></path>
+                              <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            Дмитрий Иванов
+                          </cite>
+                          <div class="post__time">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-clock w-4 h-4"
+                            >
+                              <circle cx="12" cy="12" r="10"></circle>
+                              <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <time datetime="PT15M">15 мин </time>
+                          </div>
+                        </footer>
+                      </div>
+                    </article>
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a href="#" aria-label="Перейти на страницу статьи">
+                    <article class="post">
+                      <div class="post__img">
+                        <img
+                          src="./assets/img/blog/cities/nn.jpg"
+                          alt="Зимний Нижний Новгород"
+                        />
+                      </div>
+                      <div class="post__body">
+                        <h4 class="post__title">
+                          Нижний Новгород: город контрастов
+                        </h4>
+                        <p class="post__description">
+                          Кремль на слиянии двух рек, купеческая архитектура и
+                          современное искусство.
+                        </p>
+                        <footer class="post__footer">
+                          <cite class="post__author">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-user w-4 h-4"
+                            >
+                              <path
+                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                              ></path>
+                              <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            Анна Белова
+                          </cite>
+                          <div class="post__time">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-clock w-4 h-4"
+                            >
+                              <circle cx="12" cy="12" r="10"></circle>
+                              <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <time datetime="PT8M">8 мин </time>
+                          </div>
+                        </footer>
+                      </div>
+                    </article>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-heading">
+          <div class="container">
+            <div class="footer-heading__inner">
+              <div class="footer-heading__left">
+                <h3 class="footer__title">Подпишитесь на горящие туры</h3>
+                <p class="footer__subtitle">
+                  Получайте лучшие предложения первыми!
+                </p>
+              </div>
+              <form
+                action="mailto:drv-dev@mail.ru"
+                class="footer__form footer-form"
+              >
+                <label>
+                  <input
+                    type="email"
+                    id="footer-email"
+                    class="footer-form__input"
+                    name="footer-email"
+                    placeholder="Ваш email:"
+                    required
+                  />
+                </label>
+                <button
+                  class="footer-form__btn"
+                  type="submit"
+                  aria-label="Подписаться на рассылку"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="var(--color-black)"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-send w-4 h-4"
+                  >
+                    <path
+                      d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"
+                    ></path>
+                    <path d="m21.854 2.147-10.94 10.939"></path>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer-body">
+          <div class="container">
+            <div class="footer-body__inner">
+              <div class="footer__about">
+                <div class="footer__logo logo">
+                  <div class="logo__img">
+                    <a href="/">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-map-pin w-6 h-6 text-white"
+                      >
+                        <path
+                          d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                        ></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="logo__title">
+                    <p>ТурыРоссии</p>
+                  </div>
+                </div>
+                <p>
+                  Ваш надёжный помощник в выборе туров по России. Сравнивайте
+                  цены, читайте отзывы и находите лучшие предложения от
+                  проверенных туроператоров.
+                </p>
+                <p class="footer__copy">
+                  © 2025 ТурыРоссии. Все права защищены.
+                </p>
+              </div>
+              <div class="footer__directions">
+                <h6>Направления</h6>
+                <nav class="footer__nav">
+                  <ul>
+                    <li><a href="./cities.html">Города России</a></li>
+                    <li><a href="#">Пляжный отдых</a></li>
+                    <li><a href="#">Горнолыжные курорты</a></li>
+                    <li><a href="#">Экскурсии</a></li>
+                    <li><a href="#">Горящие туры</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer__information">
+                <h6>Информация</h6>
+                <nav class="footer__nav">
+                  <ul>
+                    <li><a href="#">О сайте</a></li>
+                    <li><a href="#">Партнёрская программа</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer__contact">
+                <h6>Контакты</h6>
+                <address>
+                  <p class="footer__number">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="var(--color-orange)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-phone w-4 h-4 text-coral"
+                    >
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                      ></path>
+                    </svg>
+                    <a href="tel:+78009999999"> 8-800-999-99-99 </a>
+                  </p>
+                  <p class="footer__email">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="var(--color-orange)"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-mail w-4 h-4 text-coral"
+                    >
+                      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                      <path
+                        d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                      ></path>
+                    </svg>
+                    <a href="mailto:info@turyrossii.ru">info@turyrossii.ru</a>
+                  </p>
+                </address>
+                <p class="footer__details">
+                  Сайт ведёт самозанятый автор. <br />
+                  ИНН: 999-999-999-99
+                </p>
+                <p class="footer__copy footer__copy--mobile">
+                  © 2025 ТурыРоссии. Все права защищены.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
