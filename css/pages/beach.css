@@ -1,0 +1,40 @@
+/* Hero */
+.hero {
+  position: relative;
+  background: url("../../assets/img/bg/beach-hero-bg.jpg") center center / cover
+    no-repeat;
+}
+
+.main__hero {
+  margin-top: 91px;
+}
+
+.hero__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 476px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.hero__wrapper {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #0d59a5e6 0%, #228ec3d9 100%);
+}
+
+.hero__title {
+  margin-bottom: 24px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.hero__subtitle {
+  max-width: 672px;
+  font-size: 18px;
+  line-height: 1.5;
+}
