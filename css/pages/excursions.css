@@ -1,0 +1,178 @@
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #0d59a5e6 0%, #228ec3d9 100%);
+}
+
+.main__hero {
+  margin-top: 91px;
+}
+
+.hero__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 288px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.hero__title {
+  margin-bottom: 24px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.hero__subtitle {
+  max-width: 672px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Excursion */
+.excursions {
+  background-color: #f8f8f6;
+}
+
+.excursions__inner {
+  padding-block: 96px;
+}
+
+.excursions__list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  gap: 24px;
+}
+
+.excursion {
+  position: relative;
+  transition: var(--transition);
+}
+
+.excursion:hover {
+  transform: translateY(-10px);
+  box-shadow:
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 20px 50px -15px #1d233026;
+}
+
+.excursion__rating {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  background-color: var(--color-white);
+  border-radius: 9999px;
+  font-size: 12px;
+  color: var(--color-black);
+}
+
+.excursion__rating strong {
+  font-weight: 600;
+}
+
+.excursion__img {
+  width: 100%;
+  height: 208px;
+}
+
+.excursion__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.excursion__body {
+  padding: 24px;
+  background-color: var(--color-white);
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.excursion__link {
+  display: block;
+}
+
+.excursion__title {
+  display: -webkit-box;
+  margin-bottom: 12px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--color-black);
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.excursions__link:hover .excursion__title,
+.excursions__link:focus .excursion__title,
+.excursions__link:active .excursion__title {
+  color: var(--color-blue);
+}
+
+.excursion__description {
+  display: -webkit-box;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.excursion__time {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  margin-bottom: 16px;
+}
+
+.excursion__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.excursion__price {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.excursion__price span {
+  font-size: 12px;
+}
+
+.excursion__price strong {
+  font-size: 20px;
+  color: var(--color-blue);
+}
+
+.excursion__more {
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  color: var(--color-blue);
+  transition: var(--transition);
+}
+
+.excursions__link:hover .excursion__more,
+.excursions__link:focus .excursion__more,
+.excursions__link:active .excursion__more {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}

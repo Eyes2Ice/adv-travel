@@ -1,0 +1,44 @@
+@import url("./global-media.css");
+
+@media (max-width: 999px) {
+  /* Excursions */
+  .excursions__list {
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+  }
+}
+
+@media (max-width: 799px) {
+  /* Excursions */
+  .excursions__inner {
+    padding-block: 64px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* Hero */
+  .hero__title {
+    margin-top: 40px;
+    font-size: 36px;
+  }
+
+  .hero__subtitle {
+    max-width: 400px;
+    font-size: 16px;
+  }
+
+  /* Excursions */
+  .excursions__list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 499px) {
+  /* Hero */
+  .hero__inner {
+    padding-inline: 20px;
+  }
+
+  .hero__title {
+    margin-top: 60px;
+  }
+}

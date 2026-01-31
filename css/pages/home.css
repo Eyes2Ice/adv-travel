@@ -56,7 +56,8 @@
   gap: 32px;
 }
 
-.hero__stat p {
+.hero__stat strong {
+  display: block;
   margin-bottom: 5px;
   font-family: "Montserrat";
   font-size: 30px;
