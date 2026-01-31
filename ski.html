@@ -10,8 +10,8 @@
 
     <link rel="stylesheet" href="./css/global/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/pages/cities.css" />
-    <link rel="stylesheet" href="./css/media/cities-media.css" />
+    <link rel="stylesheet" href="./css/pages/ski.css" />
+    <link rel="stylesheet" href="./css/media/ski-media.css" />
   </head>
   <body class="body">
     <div class="wrapper">
@@ -70,9 +70,7 @@
                       <a href="/" class="nav__link">Главная</a>
                     </li>
                     <li class="nav__item">
-                      <a
-                        href="./cities.html"
-                        class="nav__link nav__link--active"
+                      <a href="./cities.html" class="nav__link"
                         >Города России</a
                       >
                     </li>
@@ -80,7 +78,9 @@
                       <a href="./beach.html" class="nav__link">Пляжный отдых</a>
                     </li>
                     <li class="nav__item">
-                      <a href="./ski.html" class="nav__link">Горнолыжные курорты</a>
+                      <a href="./ski.html" class="nav__link nav__link--active"
+                        >Горнолыжные курорты</a
+                      >
                     </li>
                     <li class="nav__item">
                       <a href="#" class="nav__link">Экскурсиии </a>
@@ -129,10 +129,10 @@
         <section class="main__hero hero">
           <div class="hero__wrapper"></div>
           <div class="hero__inner">
-            <h1 class="hero__title">Города России</h1>
+            <h1 class="hero__title">Горнолыжные курорты</h1>
             <p class="hero__subtitle">
-              Откройте для себя историю и культуру величайших городов нашей
-              страны — от Москвы до Владивостока
+              Лучшие склоны России от Кавказа до Сибири — для новичков и
+              профессионалов
             </p>
           </div>
         </section>
@@ -143,7 +143,7 @@
                 <div class="blog-heading__left">
                   <h2 class="blog__title title">Популярные статьи</h2>
                   <p class="blog__subtitle subtitle">
-                    Путеводители, маршруты и советы от наших экспертов
+                    Гайды по курортам, сравнения и советы для горнолыжников
                   </p>
                 </div>
               </div>
@@ -153,17 +153,17 @@
                     <article class="post">
                       <div class="post__img">
                         <img
-                          src="./assets/img/blog/cities.jfif"
-                          alt="Храм Василия Блаженного"
+                          src="./assets/img/blog/ski/rose-hutor.jpg"
+                          alt="Роза Хутор"
                         />
                       </div>
                       <div class="post__body">
                         <h4 class="post__title">
-                          Москва за 3 дня: что посмотреть и где остановиться
+                          Роза Хутор 2025: полный гайд по курорту
                         </h4>
                         <p class="post__description">
-                          Подробный маршрут по главным достопримечательностям
-                          столицы с бюджетом и советами от местных жителей.
+                          Всё о главном горнолыжном курорте России: трассы,
+                          подъёмники, жильё и цены на сезон.
                         </p>
                         <footer class="post__footer">
                           <cite class="post__author">
@@ -184,190 +184,7 @@
                               ></path>
                               <circle cx="12" cy="7" r="4"></circle>
                             </svg>
-                            Алексей Козлов
-                          </cite>
-                          <div class="post__time">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="16"
-                              height="16"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-clock w-4 h-4"
-                            >
-                              <circle cx="12" cy="12" r="10"></circle>
-                              <polyline points="12 6 12 12 16 14"></polyline>
-                            </svg>
-                            <time datetime="PT12M">12 мин </time>
-                          </div>
-                        </footer>
-                      </div>
-                    </article>
-                  </a>
-                </li>
-                <li class="blog__item">
-                  <a href="#" aria-label="Перейти на страницу статьи">
-                    <article class="post">
-                      <div class="post__img">
-                        <img
-                          src="./assets/img/blog/cities/spb.jfif"
-                          alt="Разводные моосты в Санкт-Петербурге"
-                        />
-                      </div>
-                      <div class="post__body">
-                        <h4 class="post__title">
-                          Санкт-Петербург: белые ночи и разводные мосты
-                        </h4>
-                        <p class="post__description">
-                          Лучшее время для посещения Северной столицы,
-                          романтические места и гастрономические открытия.
-                        </p>
-                        <footer class="post__footer">
-                          <cite class="post__author">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="16"
-                              height="16"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-user w-4 h-4"
-                            >
-                              <path
-                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
-                              ></path>
-                              <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
-                            Мария Петрова
-                          </cite>
-                          <div class="post__time">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="16"
-                              height="16"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-clock w-4 h-4"
-                            >
-                              <circle cx="12" cy="12" r="10"></circle>
-                              <polyline points="12 6 12 12 16 14"></polyline>
-                            </svg>
-                            <time datetime="PT10M">10 мин </time>
-                          </div>
-                        </footer>
-                      </div>
-                    </article>
-                  </a>
-                </li>
-                <li class="blog__item">
-                  <a href="#" aria-label="Перейти на страницу статьи">
-                    <article class="post">
-                      <div class="post__img">
-                        <img
-                          src="./assets/img/blog/cities/kazan.jpg"
-                          alt="Мечеть Кул Шариф в Казани"
-                        />
-                      </div>
-                      <div class="post__body">
-                        <h4 class="post__title">
-                          Казань — где Восток встречает Запад
-                        </h4>
-                        <p class="post__description">
-                          Уникальный колорит третьей столицы России: мечети и
-                          храмы, чак-чак и эчпочмак.
-                        </p>
-                        <footer class="post__footer">
-                          <cite class="post__author">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="16"
-                              height="16"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-user w-4 h-4"
-                            >
-                              <path
-                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
-                              ></path>
-                              <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
-                            Елена Сафина
-                          </cite>
-                          <div class="post__time">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="16"
-                              height="16"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-clock w-4 h-4"
-                            >
-                              <circle cx="12" cy="12" r="10"></circle>
-                              <polyline points="12 6 12 12 16 14"></polyline>
-                            </svg>
-                            <time datetime="PT8M">8 мин </time>
-                          </div>
-                        </footer>
-                      </div>
-                    </article>
-                  </a>
-                </li>
-                <li class="blog__item">
-                  <a href="#" aria-label="Перейти на страницу статьи">
-                    <article class="post">
-                      <div class="post__img">
-                        <img
-                          src="./assets/img/blog/cities/golden-ring.avif"
-                          alt="Золотое кольцо России"
-                        />
-                      </div>
-                      <div class="post__body">
-                        <h4 class="post__title">
-                          Золотое кольцо: полный путеводитель
-                        </h4>
-                        <p class="post__description">
-                          Маршрут по древним городам России: Суздаль, Владимир,
-                          Ярославль, Кострома и другие.
-                        </p>
-                        <footer class="post__footer">
-                          <cite class="post__author">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="16"
-                              height="16"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="lucide lucide-user w-4 h-4"
-                            >
-                              <path
-                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
-                              ></path>
-                              <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
-                            Дмитрий Иванов
+                            Игорь Снегов
                           </cite>
                           <div class="post__time">
                             <svg
@@ -397,17 +214,17 @@
                     <article class="post">
                       <div class="post__img">
                         <img
-                          src="./assets/img/blog/cities/nn.jpg"
-                          alt="Зимний Нижний Новгород"
+                          src="./assets/img/blog/ski/sheregesh.jpg"
+                          alt="Горнолыжный склон в Шерегеше"
                         />
                       </div>
                       <div class="post__body">
                         <h4 class="post__title">
-                          Нижний Новгород: город контрастов
+                          Шерегеш: зачем ехать в Сибирь кататься
                         </h4>
                         <p class="post__description">
-                          Кремль на слиянии двух рек, купеческая архитектура и
-                          современное искусство.
+                          Легендарный пухляк, длинный сезон и особая атмосфера —
+                          почему Шерегеш стоит посетить.
                         </p>
                         <footer class="post__footer">
                           <cite class="post__author">
@@ -428,7 +245,129 @@
                               ></path>
                               <circle cx="12" cy="7" r="4"></circle>
                             </svg>
-                            Анна Белова
+                            Дмитрий Горов
+                          </cite>
+                          <div class="post__time">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-clock w-4 h-4"
+                            >
+                              <circle cx="12" cy="12" r="10"></circle>
+                              <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <time datetime="PT12M">12 мин </time>
+                          </div>
+                        </footer>
+                      </div>
+                    </article>
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a href="#" aria-label="Перейти на страницу статьи">
+                    <article class="post">
+                      <div class="post__img">
+                        <img
+                          src="./assets/img/blog/ski/elbrus.webp"
+                          alt="Роза Хутор"
+                        />
+                      </div>
+                      <div class="post__body">
+                        <h4 class="post__title">
+                          Домбай vs Эльбрус: сравнение курортов
+                        </h4>
+                        <p class="post__description">
+                          Два кавказских гиганта: какой курорт выбрать в
+                          зависимости от уровня и предпочтений.
+                        </p>
+                        <footer class="post__footer">
+                          <cite class="post__author">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-user w-4 h-4"
+                            >
+                              <path
+                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                              ></path>
+                              <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            Анна Горская
+                          </cite>
+                          <div class="post__time">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-clock w-4 h-4"
+                            >
+                              <circle cx="12" cy="12" r="10"></circle>
+                              <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <time datetime="PT10M">10 мин </time>
+                          </div>
+                        </footer>
+                      </div>
+                    </article>
+                  </a>
+                </li>
+                <li class="blog__item">
+                  <a href="#" aria-label="Перейти на страницу статьи">
+                    <article class="post">
+                      <div class="post__img">
+                        <img
+                          src="./assets/img/blog/ski/starter.jpg"
+                          alt="Роза Хутор"
+                        />
+                      </div>
+                      <div class="post__body">
+                        <h4 class="post__title">
+                          Горнолыжка для начинающих: с чего начать
+                        </h4>
+                        <p class="post__description">
+                          Выбор курорта, снаряжения и инструктора — советы для
+                          тех, кто впервые встаёт на лыжи.
+                        </p>
+                        <footer class="post__footer">
+                          <cite class="post__author">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              class="lucide lucide-user w-4 h-4"
+                            >
+                              <path
+                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                              ></path>
+                              <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                            Сергей Лыжин
                           </cite>
                           <div class="post__time">
                             <svg
