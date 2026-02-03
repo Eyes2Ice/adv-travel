@@ -86,10 +86,13 @@
 
 .advantages__list {
   display: flex;
+  justify-content: center;
   gap: 24px;
+  flex-wrap: wrap-reverse;
 }
 
 .advantage {
+  max-width: 286px;
   padding: 24px;
   background-color: var(--color-white);
   box-shadow:

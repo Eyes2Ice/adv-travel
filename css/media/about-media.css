@@ -12,6 +12,18 @@
   }
 }
 
+@media (max-width: 699px) {
+  /* Advantages */
+  .advantages__list {
+    justify-content: start;
+  }
+
+  .advantage {
+    max-width: none;
+    width: 100%;
+  }
+}
+
 @media (max-width: 599px) {
   /* Hero */
   .hero__title {
