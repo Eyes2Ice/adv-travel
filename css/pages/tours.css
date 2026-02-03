@@ -36,7 +36,7 @@
 }
 
 .discount-badge {
-  border-radius: 9999px;
+  border-radius: var(--border-radius);
   background-color: var(--color-green);
   padding: 8px 12px;
   font-size: 18px;

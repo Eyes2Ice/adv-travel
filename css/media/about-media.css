@@ -5,6 +5,11 @@
   .mission__inner {
     padding-block: 64px;
   }
+
+  /* Advantages */
+  .advantages__inner {
+    padding-block: 64px;
+  }
 }
 
 @media (max-width: 599px) {

@@ -41,7 +41,7 @@
 .mission__badge {
   margin-bottom: 16px;
   padding: 10px 12px;
-  border-radius: 9999px;
+  border-radius: var(--border-radius);
   background-color: #0d59a51a;
   font-weight: 700;
   color: var(--color-blue);
@@ -50,11 +50,7 @@
 .mission__title {
   max-width: 896px;
   margin-bottom: 48px;
-  font-family: "Montserrat";
-  font-size: 36px;
-  font-weight: 700;
   text-align: center;
-  color: var(--color-black);
 }
 
 .mission__text {
@@ -72,4 +68,58 @@
 
 .mission__definition b {
   color: var(--color-black);
+}
+
+/* Advantages */
+.advantages {
+  background-color: #f8f8f6;
+}
+
+.advantages__inner {
+  padding-block: 96px;
+}
+
+.advantages__title {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.advantages__list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantage {
+  padding: 24px;
+  background-color: var(--color-white);
+  box-shadow:
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 8px 30px -8px #1d23301f;
+  border-radius: 16px;
+}
+
+.advantage__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  aspect-ratio: 1;
+  margin-bottom: 16px;
+  background-color: #0d59a51a;
+  border-radius: 12px;
+}
+
+.advantage__title {
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.advantage__text {
+  line-height: 1.5;
 }
