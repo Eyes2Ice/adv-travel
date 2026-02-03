@@ -1,0 +1,75 @@
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #0d59a5e6 0%, #228ec3d9 100%);
+}
+
+.main__hero {
+  margin-top: 91px;
+}
+
+.hero__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 288px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.hero__title {
+  margin-bottom: 24px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.hero__subtitle {
+  max-width: 672px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Mission */
+.mission__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 96px;
+}
+
+.mission__badge {
+  margin-bottom: 16px;
+  padding: 10px 12px;
+  border-radius: 9999px;
+  background-color: #0d59a51a;
+  font-weight: 700;
+  color: var(--color-blue);
+}
+
+.mission__title {
+  max-width: 896px;
+  margin-bottom: 48px;
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.mission__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 896px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.mission__definition {
+  font-size: 18px;
+}
+
+.mission__definition b {
+  color: var(--color-black);
+}
