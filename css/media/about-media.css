@@ -10,6 +10,11 @@
   .advantages__inner {
     padding-block: 64px;
   }
+
+  /* Stages */
+  .stages__inner {
+    padding-block: 64px;
+  }
 }
 
 @media (max-width: 699px) {

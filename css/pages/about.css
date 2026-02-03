@@ -126,3 +126,46 @@
 .advantage__text {
   line-height: 1.5;
 }
+
+/* Stages */
+.stages__inner {
+  padding-block: 96px;
+}
+
+.stages__title {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.stages__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+
+  font-size: 16px;
+  color: var(--color-black);
+}
+
+.stage {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.stage__marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  background-color: var(--color-blue);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-white);
+}
