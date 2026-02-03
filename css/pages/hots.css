@@ -1,0 +1,70 @@
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #0d59a5e6 0%, #228ec3d9 100%);
+}
+
+.main__hero {
+  margin-top: 91px;
+}
+
+.hero__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 288px;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.hero__badge {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  margin-bottom: 24px;
+  background-color: var(--color-orange);
+  border-radius: 9999px;
+  padding: 8px 16px;
+  font-weight: 600;
+}
+
+.hero__title {
+  margin-bottom: 24px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.hero__subtitle {
+  max-width: 672px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Tours */
+.tours__list {
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+}
+
+.discount-badge {
+  border-radius: 9999px;
+  background-color: var(--color-green);
+  padding: 8px 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.tour__img {
+  height: 224px;
+}
+
+.tour__badges {
+  max-width: 90%;
+}
+
+.tour__btn {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}

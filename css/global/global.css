@@ -235,6 +235,7 @@ header {
   font-family: "Montserrat";
   font-weight: 600;
   color: var(--color-white);
+  transition: var(--transition);
 }
 
 .header__btn:hover,
@@ -246,6 +247,10 @@ header {
 .header__btn img {
   width: 14px;
   aspect-ratio: 1;
+}
+
+.header__btn--current {
+  background-color: var(--color-blue);
 }
 
 /* Blog */
