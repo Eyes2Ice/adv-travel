@@ -169,3 +169,39 @@
   font-weight: 700;
   color: var(--color-white);
 }
+
+/* Stats */
+.stats {
+  background-color: #f8f8f6;
+}
+
+.stats__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 96px;
+}
+
+.stats__title {
+  margin-bottom: 24px;
+}
+
+.stats__list {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 32px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.stat__number {
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--color-blue);
+}
