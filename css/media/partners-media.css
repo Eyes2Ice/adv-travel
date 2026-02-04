@@ -5,6 +5,21 @@
   .advantages__inner {
     padding-block: 64px;
   }
+
+  /* Relations */
+  .relations__inner {
+    padding-block: 64px;
+  }
+
+  .relations__list {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .relation {
+    flex-direction: column;
+    max-width: none;
+  }
 }
 
 @media (max-width: 699px) {
