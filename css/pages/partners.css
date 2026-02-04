@@ -185,3 +185,118 @@
 .relation__text {
   line-height: 1.5;
 }
+
+/* Stages */
+.stages__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 96px;
+}
+
+.stages__title {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.stages__list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+  font-size: 16px;
+}
+
+.stage {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.stage__marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 56px;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0d59a5 0%, #ee5b2b 100%);
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.stage__title {
+  margin-bottom: 8px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.stages__link {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #0d59a5 0%, #ee5b2b 100%);
+  border-radius: 12px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+/* Conditions */
+.conditions {
+  background-color: #f7f3ed4d;
+}
+
+.conditions__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 96px;
+}
+
+.conditions__title {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.conditions__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 896px;
+  width: 100%;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: var(--color-white);
+  box-shadow:
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 0 #0000,
+    0 8px 30px -8px #1d23301f;
+  font-size: 16px;
+  color: var(--color-black);
+}
+
+.condition {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.condition__marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}

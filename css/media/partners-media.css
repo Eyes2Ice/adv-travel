@@ -20,6 +20,16 @@
     flex-direction: column;
     max-width: none;
   }
+
+  /* Stages */
+  .stages__inner {
+    padding-block: 64px;
+  }
+
+  /* Conditions */
+  .relations__inner {
+    padding-block: 64px;
+  }
 }
 
 @media (max-width: 699px) {
