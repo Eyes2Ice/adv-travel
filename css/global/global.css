@@ -608,6 +608,13 @@ header {
   background-color: #ffffff33;
   line-height: 1.5;
   color: var(--color-white);
+  transition: var(--transition);
+}
+
+.footer-form__input:hover,
+.footer-form__input:focus,
+.footer-form__input:active {
+  border-color: var(--color-blue);
 }
 
 .footer-form__input::placeholder {

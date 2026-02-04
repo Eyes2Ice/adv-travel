@@ -1,0 +1,59 @@
+@import url("./global-media.css");
+
+@media (max-width: 899px) {
+  /* Contact */
+  .contact__inner {
+    flex-direction: column-reverse;
+  }
+
+  .contact__info {
+    display: flex;
+    flex-direction: column;
+    max-width: none;
+  }
+
+  .contact__form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 799px) {
+  /* Contact */
+  .contact__inner {
+    padding-block: 64px;
+  }
+}
+
+@media (max-width: 599px) {
+  /* Hero */
+  .hero__title {
+    margin-top: 40px;
+    font-size: 36px;
+  }
+
+  .hero__subtitle {
+    max-width: 400px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 499px) {
+  /* Hero */
+  .hero__inner {
+    padding-inline: 20px;
+  }
+
+  .hero__title {
+    margin-top: 60px;
+  }
+
+  /* Contact */
+  .contact-form__top {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .contact-form__btn {
+    padding: 15px 20px;
+  }
+}
